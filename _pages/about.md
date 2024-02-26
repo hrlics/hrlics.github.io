@@ -26,7 +26,11 @@ robust, reliable AI systems that can perceive, act, and communicate as humans. I
 - 2021-2025: B.Eng in Computer Science, Sichuan University
 - 2024-2024: Exchange student at The Hong Kong Polytechnic University
 
-
+## Awards and Honors
+National Scholarship, 2023
+Interdisciplinary Contest in Modeling, Meritorious winner, 2023
+First Class Scholarship of Sichuan University, 2023
+Outstanding Student Leader of Sichuan University, 2022
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
