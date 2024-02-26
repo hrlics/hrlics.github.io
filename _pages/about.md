@@ -9,7 +9,7 @@ profile:
   image: profile.jpg
   image_circular: False # crops the image to make it circular
   more_info: >
-    **Email**: lihaoran@stu.scu.edu.cn
+    <p>**Email**: lihaoran@stu.scu.edu.cn</p>
   
 
 news: true # includes a list of news items
