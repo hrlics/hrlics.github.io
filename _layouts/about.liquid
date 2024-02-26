@@ -1,5 +1,12 @@
 ---
 layout: default
+.social {
+  text-align: center; /* 让社交媒体部分居中对齐 */
+}
+
+.contact-icons {
+  display: inline-block; /* 使社交媒体图标水平排列 */
+}
 ---
 <div class="post">
   <header class="post-header">
@@ -35,19 +42,21 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+
+        <!-- Social -->
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
 
-     <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+     
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}

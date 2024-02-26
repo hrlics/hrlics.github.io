@@ -9,9 +9,8 @@ profile:
   image: profile.jpg
   image_circular: False # crops the image to make it circular
   more_info: >
-    <p>lihaoran@stu.scu.edu.cn</p>
-    <p>Department of Computing</p>
-    <p>The Hong Kong Polytechnic University</p>
+    **Email**: lihaoran@stu.scu.edu.cn
+  
 
 news: true # includes a list of news items
 latest_posts: False # includes a list of the newest posts
@@ -27,10 +26,6 @@ robust, reliable AI systems that can perceive, act, and communicate as humans. I
 - 2021-2025: B.Eng in Computer Science, Sichuan University
 - 2024-2024: Exchange student at The Hong Kong Polytechnic University
 
-
-
-
-<hr style="border: 1px solid gray">
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
