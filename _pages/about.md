@@ -7,7 +7,7 @@ subtitle: Undergrad@PolyU #<a href='#'>Affiliations</a>. Address. Contacts. Moto
 profile:
   align: right
   image: profile.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: False # crops the image to make it circular
   more_info: >
     <p>lihaoran@stu.scu.edu.cn</p>
     <p>Department of Computing</p>
