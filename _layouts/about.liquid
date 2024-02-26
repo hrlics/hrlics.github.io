@@ -43,7 +43,9 @@ layout: default
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
 
-        <!-- Social -->
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- Social -->
         {% if page.social %}
           <div class="social">
             <div class="contact-icons">{% include social.liquid %}</div>
@@ -53,8 +55,6 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
 
      
 
