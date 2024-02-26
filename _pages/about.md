@@ -24,11 +24,11 @@ robust, reliable AI systems that can perceive, act, and communicate as humans. I
 [CV](./assets/pdf/CV.pdf)
 
 
-## Education
+### Education
 - 2021-2025: B.Eng in Computer Science, Sichuan University
 - 2024-2024: Exchange student at The Hong Kong Polytechnic University
 
-## Awards and Honors
+### Awards and Honors
 - National Scholarship, 2023
 - Interdisciplinary Contest in Modeling, Meritorious winner, 2023
 - First Class Scholarship of Sichuan University, 2023
