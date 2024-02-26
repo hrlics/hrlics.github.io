@@ -23,6 +23,12 @@ Hi :wave:! I am Haoran Li (李浩然), a junior undergraduate student from [Sich
 robust, reliable AI systems that can perceive, act, and communicate as humans. I am gratefully advised by Prof. [Huaxiu Yao](https://www.huaxiuyao.io/) as a remote research intern.
 
 
+## Education
+- 2021-2025: B.Eng in Computer Science, Sichuan University
+- 2024-2024: Exchange student at The Hong Kong Polytechnic University
+
+
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
