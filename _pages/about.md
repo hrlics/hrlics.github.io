@@ -10,7 +10,7 @@ profile:
   image_circular: False # crops the image to make it circular
   more_info: >
     <p>lihaoran@stu.scu.edu.cn</p>
-    <p>Undergrad @ PolyU</p>
+    <p>Undergrad@PolyU</p>
 
 news: true # includes a list of news items
 latest_posts: False # includes a list of the newest posts
