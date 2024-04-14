@@ -23,7 +23,7 @@ robust, reliable AI systems that can perceive, act, and communicate as humans. I
 
 <!-- [CV](./assets/pdf/CV.pdf)-->
 
-[CV](https://drive.google.com/file/d/1jDxouynmNL8TuIkfzv_gXEAktjLbPGWE/view?usp=drive_link) / [Google Scholar](https://scholar.google.com/citations?user=7jcUaYUAAAAJ&hl=zh-CN)
+[CV](https://drive.google.com/file/d/1O0JKVok1FuSXZiDydVq2s_falNToVbrv/view?usp=drive_link) / [Google Scholar](https://scholar.google.com/citations?user=7jcUaYUAAAAJ&hl=zh-CN)
 
 ### Education
 - 2021-2025: B.Eng in Computer Science, Sichuan University
