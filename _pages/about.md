@@ -29,7 +29,7 @@ Hi :wave:! I am Haoran Li (李浩然), a junior undergraduate student from [Sich
 - 2024-2024: Exchange student at The Hong Kong Polytechnic University
 
 ### Awards and Honors
-- **National Scholarship of China** (0.2%-nation wide), 2023
+- **National Scholarship of China** (0.2% - nation wide), 2023
 - Interdisciplinary Contest in Modeling, Meritorious Winner, 2023
 - First Class Scholarship of Sichuan University, 2023
 - Outstanding Student of Sichuan University, 2022
