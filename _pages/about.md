@@ -18,8 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi :wave:! I am Haoran Li (李浩然), a junior undergraduate student from [Sichuan University](https://en.scu.edu.cn/) and currently an exchange student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/). My primary research interests lie in Natural Language Processing, Machine Learning, Multi-modal Learning, and other application domains. My research goal is to build 
-robust, reliable AI systems that can perceive, act, and communicate as humans. I am gratefully advised by Prof. [Huaxiu Yao](https://www.huaxiuyao.io/) as a research intern.
+Hi :wave:! I am Haoran Li (李浩然), a junior undergraduate student from [Sichuan University](https://en.scu.edu.cn/) and currently an exchange student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/). My primary research interests lie in Natural Language Processing, Machine Learning, Multi-modal Learning, and other application domains. My research goal is to build robust, reliable, and safe AI systems. I am gratefully advised by Prof. [Huaxiu Yao](https://www.huaxiuyao.io/) as a research intern.
 
 <!-- [CV](./assets/pdf/CV.pdf)-->
 
@@ -33,7 +32,7 @@ robust, reliable AI systems that can perceive, act, and communicate as humans. I
 - National Scholarship of China, 2023
 - Interdisciplinary Contest in Modeling, Meritorious Winner, 2023
 - First Class Scholarship of Sichuan University, 2023
-- Outstanding Student Leader of Sichuan University, 2022
+- Outstanding Student of Sichuan University, 2022
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
