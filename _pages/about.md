@@ -34,6 +34,15 @@ Hi :wave:! I am Haoran Li (李浩然), a junior undergraduate student from [Sich
 - First Class Scholarship of Sichuan University, 2023
 - Outstanding Student of Sichuan University, 2022
 
+### News
+<div style="width: 100%; height: 100px; overflow: auto; border: 1px solid #ccc;">
+  <ul>
+  <li> <b>[07/2024]</b> :tada: <a href="https://arxiv.org/abs/2404.01165">LITE</a> was accepted by COLM 2024! </li>
+  <li> <b>[09/2023]</b> I was awarded with the <b>National Scholarship of China</b>! </li>
+  <li> <b>[10/2022]</b> I was selected into Wu Yuzhang Honors College! </li>
+  </ul>
+</div>
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
