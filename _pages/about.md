@@ -35,7 +35,7 @@ Hi :wave:! I am Haoran Li (李浩然), a junior undergraduate student from [Sich
 - Outstanding Student of Sichuan University, 2022
 
 ### News
-<div style="width: 100%; height: 100px; overflow: auto; border: 1px solid #ccc;">
+<div style="width: 100%; height: 100px; overflow: auto; border: none;">
   <ul>
   <li> <b>[07/2024]</b> :tada: <a href="https://arxiv.org/abs/2404.01165">LITE</a> was accepted by COLM 2024! </li>
   <li> <b>[09/2023]</b> I was awarded with the <b>National Scholarship of China</b>! </li>
