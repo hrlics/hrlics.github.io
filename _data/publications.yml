@@ -1,6 +1,6 @@
 main:
 
- - title: LITE Modeling Environmental Ecosystems with Multimodal Large Language Models
+  - title: LITE: Modeling Environmental Ecosystems with Multimodal Large Language Models
     authors: <strong>Haoran Li</strong>, Junqi Liu, Zexian Wang, Shiyuan Luo, Xiaowei Jia, Huaxiu Yao
     conference_short: COLM
     conference: Conference on Language Modeling <strong>(COLM)</strong>, 2024.
