@@ -28,10 +28,11 @@ My primary research interests lie in Multimodal Learning, Natural Language Proce
 ## Honors and Awards
 
 - National Scholarship of China (top 0.2%, nationwide), 2023
-- Interdisciplinary Contest in Modeling, Meritorious Winner, 2023
 - First Class Scholarship of Sichuan University, 2023
+- Interdisciplinary Contest in Modeling, Meritorious Winner, 2023
 - Outstanding Student of Sichuan University, 2023
+- Second Prize of Visual Computing, National University of Singapore SoC Summer Workshop, 2023
 - Second Class Scholarship of Sichuan University, 2022
-- Second Prize of Visual Computing, National University of Singapore SoC Summer Workshop
+
 
 
