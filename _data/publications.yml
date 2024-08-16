@@ -8,7 +8,7 @@ main:
     code: https://github.com/MrGiovanni/ContinualLearning
     image: ./assets/img/LITE.jpg
 
-  - title: RULE: Reliable Multimodal RAG for Factuality in Medical Vision Language Models
+  - title: RULE： Reliable Multimodal RAG for Factuality in Medical Vision Language Models
     authors: Peng Xia*, Kangyu Zhu*, <strong>Haoran Li</strong>, Hongtu Zhu, Yun Li, Gang Li, Linjun Zhang, Huaxiu Yao
     conference_short: arXiv
     conference: Submitted to EMNLP 2024.
