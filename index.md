@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi 👋! I am Haoran Li (李浩然), an undergraduate student majoring in Computer Science and Technology at Wu Yuzhang Honors College, [Sichuan University[(https://www.scu.edu.cn/). I was an exchange student majoring in Computing at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/). Currently, I am fortunate to be advised by Prof. [Huaxiu Yao](https://www.huaxiuyao.io/) from (UNC-Chapel Hill)[https://www.unc.edu/].
+Hi 👋! I am Haoran Li (李浩然), an undergraduate student majoring in Computer Science and Technology at Wu Yuzhang Honors College, [Sichuan University](https://www.scu.edu.cn/). I was an exchange student majoring in Computing at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/). Currently, I am fortunate to be advised by Prof. [Huaxiu Yao](https://www.huaxiuyao.io/) from [UNC-Chapel Hill](https://www.unc.edu/).
 
 My primary research interests lie in Multimodal Learning, Natural Language Processing, and Foundation Models.
 
