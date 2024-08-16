@@ -14,7 +14,7 @@ main:
     conference: Submitted to EMNLP 2024.
     pdf: https://arxiv.org/pdf/2407.05131
     code: https://github.com/richard-peng-xia/RULE
-    image: ./assets/img/LITE.jpg
+    image: ./assets/img/RULE.png
 
   # - title: LITE: Modeling Environmental Ecosystems with Multimodal Large Language Models
   #   authors: <strong>Haoran Li</strong>, Junqi Liu, Zexian Wang, Shiyuan Luo, Xiaowei Jia, Huaxiu Yao
