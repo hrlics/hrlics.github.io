@@ -5,7 +5,7 @@ main:
     conference_short: COLM
     conference: Conference on Language Modeling <strong>(COLM)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2404.01165
-    code: https://github.com/MrGiovanni/ContinualLearning
+    code: https://github.com/hrlics/LITE
     image: ./assets/img/LITE.jpg
 
   - title: RULE： Reliable Multimodal RAG for Factuality in Medical Vision Language Models
