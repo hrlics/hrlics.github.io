@@ -6,7 +6,6 @@ main:
     conference: Conference on Language Modeling <strong>(COLM)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2404.01165
     code: https://github.com/hrlics/LITE
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:G_T-ry0wedAJ:scholar.google.com/&output=citation&scisdr=ClHXxVE2EOvltQ3jaeo:AFWwaeYAAAAAZr7lceoaaiKmsC-NQ8XPQzCcOZ8&scisig=AFWwaeYAAAAAZr7lcUWWNRVT6mgo45cZhjZA2RM&scisf=4&ct=citation&cd=-1&hl=zh-CN
     image: ./assets/img/LITE.jpg
 
   # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
