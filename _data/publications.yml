@@ -8,6 +8,14 @@ main:
     code: https://github.com/MrGiovanni/ContinualLearning
     image: ./assets/img/LITE.jpg
 
+  - title: RULE: Reliable Multimodal RAG for Factuality in Medical Vision Language Models
+    authors: Peng Xia*, Kangyu Zhu*, <strong>Haoran Li</strong>, Hongtu Zhu, Yun Li, Gang Li, Linjun Zhang, Huaxiu Yao
+    conference_short: arXiv
+    conference: Submitted to EMNLP 2024.
+    pdf: https://arxiv.org/pdf/2407.05131
+    code: https://github.com/richard-peng-xia/RULE
+    image: ./assets/img/LITE.jpg
+
   # - title: LITE: Modeling Environmental Ecosystems with Multimodal Large Language Models
   #   authors: <strong>Haoran Li</strong>, Junqi Liu, Zexian Wang, Shiyuan Luo, Xiaowei Jia, Huaxiu Yao
   #   conference_short: COLM
