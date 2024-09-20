@@ -17,7 +17,7 @@ My primary research interests lie in Multimodal Learning, Natural Language Proce
 
 
 ## News
-
+- **[09/2024]** 🎉 [RULE](https://arxiv.org/pdf/2407.05131) and SemDI were accepted by **EMNLP 2024**! 
 - **[07/2024]** 🎉 [LITE](https://arxiv.org/abs/2404.01165) was accepted by **COLM 2024**!
 - **[09/2023]** 🏆 I was awarded with the **National Scholarship of China** (top 0.2%, nationwide)!
 - **[10/2022]** I was selected into Wu Yuzhang Honors College!
