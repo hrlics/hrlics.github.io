@@ -10,8 +10,8 @@ main:
 
   - title: RULE： Reliable Multimodal RAG for Factuality in Medical Vision Language Models
     authors: Peng Xia*, Kangyu Zhu*, <strong>Haoran Li</strong>, Hongtu Zhu, Yun Li, Gang Li, Linjun Zhang, Huaxiu Yao
-    conference_short: arXiv
-    conference: Submitted to EMNLP 2024.
+    conference_short: EMNLP
+    conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2407.05131
     code: https://github.com/richard-peng-xia/RULE
     image: ./assets/img/RULE.png
