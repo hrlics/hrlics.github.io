@@ -8,6 +8,13 @@ main:
     code: https://github.com/hrlics/LITE
     image: ./assets/img/LITE.jpg
 
+  - title: Advancing Event Causality Identification via Heuristic Semantic Dependency Inquiry Network
+    authors: <strong>Haoran Li</strong>, Qiang Gao, Hongmei Wu, Li Huang
+    conference_short: EMNLP
+    conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
+    code: https://github.com/hrlics/SemDI
+    image: ./assets/img/SemDI.png
+
   - title: RULE： Reliable Multimodal RAG for Factuality in Medical Vision Language Models
     authors: Peng Xia*, Kangyu Zhu*, <strong>Haoran Li</strong>, Hongtu Zhu, Yun Li, Gang Li, Linjun Zhang, Huaxiu Yao
     conference_short: EMNLP
