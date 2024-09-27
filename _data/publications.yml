@@ -12,6 +12,7 @@ main:
     authors: <strong>Haoran Li</strong>, Qiang Gao, Hongmei Wu, Li Huang
     conference_short: EMNLP
     conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2409.13621
     code: https://github.com/hrlics/SemDI
     image: ./assets/img/SemDI.png
 
