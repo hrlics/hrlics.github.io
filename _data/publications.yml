@@ -24,7 +24,7 @@ main:
     code: https://github.com/richard-peng-xia/RULE
     image: ./assets/img/RULE.png
 
-  - title: MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models
+  - title: MMed-RAG： Versatile Multimodal RAG System for Medical Vision Language Models
     authors: Peng Xia, Kangyu Zhu, <strong>Haoran Li</strong>, Tianze Wang, Weijia Shi, Sheng Wang, Linjun Zhang, James Zou, Huaxiu Yao
     conference_short: arXiv
     conference: arXiv
