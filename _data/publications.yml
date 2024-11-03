@@ -30,7 +30,7 @@ main:
     conference: arXiv
     pdf: https://arxiv.org/pdf/2410.13085
     code: https://github.com/richard-peng-xia/MMed-RAG
-    image: ./assets/img/RULE.png
+    image: ./assets/img/MMed_RAG.png
 
   # - title: LITE: Modeling Environmental Ecosystems with Multimodal Large Language Models
   #   authors: <strong>Haoran Li</strong>, Junqi Liu, Zexian Wang, Shiyuan Luo, Xiaowei Jia, Huaxiu Yao
