@@ -26,8 +26,8 @@ main:
 
   - title: MMed-RAG： Versatile Multimodal RAG System for Medical Vision Language Models
     authors: Peng Xia, Kangyu Zhu, <strong>Haoran Li</strong>, Tianze Wang, Weijia Shi, Sheng Wang, Linjun Zhang, James Zou, Huaxiu Yao
-    conference_short: arXiv
-    conference: arXiv
+    conference_short: ICLR
+    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2410.13085
     code: https://github.com/richard-peng-xia/MMed-RAG
     image: ./assets/img/MMed_RAG.png
