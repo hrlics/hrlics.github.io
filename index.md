@@ -17,11 +17,11 @@ My primary research interests lie in Multimodal Learning, Natural Language Proce
 
 
 ## News
+- **[01/2025]** 🎉 [MMed-RAG](https://arxiv.org/pdf/2410.13085) was accepted by **ICLR 2025**!
 - **[09/2024]** 🎉 [SemDI](https://arxiv.org/pdf/2409.13621) and [RULE](https://arxiv.org/pdf/2407.05131) were accepted by **EMNLP 2024**! 
 - **[07/2024]** 🎉 [LITE](https://arxiv.org/abs/2404.01165) was accepted by **COLM 2024**!
 - **[09/2023]** 🏆 I was awarded with the **National Scholarship of China** (top 0.2%, nationwide)!
 - **[10/2022]** I was selected into Wu Yuzhang Honors College!
-
 
 {% include_relative _includes/publications.md %}
 
