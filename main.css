@@ -1581,6 +1581,8 @@ div.paginate-container li:nth-last-child(2) a:after {
     max-width: -webkit-calc(100% - (30px / 2));
     max-width: calc(100% - (30px / 2));
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto', sans-serif, Helvetica
 }
 
