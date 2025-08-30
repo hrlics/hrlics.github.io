@@ -792,6 +792,18 @@ pre>code {
     color: #292929
 }
 
+.name-en {
+      font-family: Arial, Helvetica, sans-serif; /* 英文字体 */
+      font-size: 32px;
+      color: #292929;
+    }
+.name-cn {
+  font-family: KaiTi, "STKaiti", "Kaiti SC", serif; /* 中文楷体，兼容 Win/Mac */
+  font-size: 26px;
+  color: #292929;
+  letter-spacing: 2px;
+}
+
 #my-title {
     font-size: 24px;
     color: #292929;
