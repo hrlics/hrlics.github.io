@@ -1936,6 +1936,6 @@ div.paginate-container li:nth-last-child(2) a:after {
     }
 }
 
-b, strong {
+/* b, strong {
     font-weight: 900 !important;
-}
+} */
