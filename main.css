@@ -35,7 +35,7 @@ html {
 
 body {
     z-index: initial;
-    font-family: "Lato", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
@@ -1937,5 +1937,5 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 b, strong {
-    font-weight: 700 !important;
+    font-weight: 900 !important;
 }
