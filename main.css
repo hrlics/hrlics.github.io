@@ -1935,3 +1935,7 @@ div.paginate-container li:nth-last-child(2) a:after {
         font-size: 18px
     }
 }
+
+b, strong {
+    font-weight: 700 !important;
+}
