@@ -1936,29 +1936,6 @@ div.paginate-container li:nth-last-child(2) a:after {
     }
 }
 
-
-#news {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-#news h2 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-#news hr {
-  width: 50px;
-  height: 3px;
-  background-color: #3B82F6;
-  border: none;
-  margin-top: 4px;
-  margin-bottom: 1.5rem;
-}
-
 .news-item {
   background: #f9f9f9;
   border-radius: 12px;
