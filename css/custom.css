@@ -3,7 +3,7 @@ body {
     color: #2c3e50;     
     line-height: 1.7;   
     background-color: #fcfcfc;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6, .md-heading {
@@ -23,19 +23,6 @@ a:hover {
     color: #004499;
     text-decoration: underline;
 }
-
-
-/* ================= About Section Tweak ================= */
-.bio-body p {
-    font-weight: 400; 
-    
-    /* /* 加深颜色：从深灰改为接近纯黑，视觉上也会更“重” */
-    color: #111;  */
-    
-    text-align: justify;
-    line-height: 1.7;
-}
-
 
 /* ================= News Timeline ================= */
 #news ul {
@@ -97,6 +84,7 @@ li.indented strong {
     font-weight: 700;
     color: #000;
 }
+
 
 
 
