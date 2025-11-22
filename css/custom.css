@@ -24,3 +24,42 @@ a:hover {
     text-decoration: underline;
 }
 
+/* ================= Profile Card ================= */
+.profile-wrapper {
+    background: #fff;              
+    border: 1px solid #f0f0f0;    
+    border-radius: 12px;         
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05); 
+    padding: 30px !important;      
+    margin: 20px auto 40px auto;   
+    max-width: 900px;              
+}
+
+#profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;            
+    border: 4px solid #fff;       
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+    object-fit: cover;
+}
+
+#my-name {
+    font-family: 'Merriweather', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.icon-button {
+    color: #666 !important;
+    font-size: 1.5rem;
+    margin-right: 12px;
+}
+
+.icon-button:hover {
+    color: #0066cc !important;
+    transform: translateY(-2px);
+}
+
