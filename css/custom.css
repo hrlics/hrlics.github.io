@@ -62,8 +62,8 @@ li.indented strong {
 
 /* ================= Publications ================= */
 .publications p {
-    margin-bottom: 25px;
-    padding-bottom: 25px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
 }
 
 
@@ -84,5 +84,6 @@ li.indented strong {
     font-weight: 700;
     color: #000;
 }
+
 
 
