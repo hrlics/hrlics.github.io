@@ -67,8 +67,7 @@ li.indented strong {
 }
 
 
-.publications p strong a {
-    display: block;         
+.publications p strong a {      
     font-size: 1.1rem;      
     font-weight: 600;
     margin-bottom: 4px;
@@ -85,4 +84,5 @@ li.indented strong {
     font-weight: 700;
     color: #000;
 }
+
 
