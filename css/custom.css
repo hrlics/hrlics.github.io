@@ -64,7 +64,6 @@ li.indented strong {
 .publications p {
     margin-bottom: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px dashed #e0e0e0;
 }
 
 
@@ -75,6 +74,7 @@ li.indented strong {
     font-weight: 600;
     margin-bottom: 4px;
 }
+
 .publications p strong a:hover {
     color: #0066cc;
 }
@@ -86,18 +86,3 @@ li.indented strong {
     font-weight: 700;
     color: #000;
 }
-
-
-.publications em,
-.publications p strong:last-child {
-    display: block;
-    margin-top: 6px;
-    color: #555;
-    font-style: italic;
-}
-
-
-
-
-
-
