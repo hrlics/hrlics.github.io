@@ -27,7 +27,7 @@ a:hover {
 
 /* ================= About Section Tweak ================= */
 .bio-body p {
-    font-weight: 500; 
+    font-weight: 420; 
     
     /* /* 加深颜色：从深灰改为接近纯黑，视觉上也会更“重” */
     color: #111;  */
@@ -97,6 +97,7 @@ li.indented strong {
     font-weight: 700;
     color: #000;
 }
+
 
 
 
