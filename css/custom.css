@@ -32,7 +32,7 @@ a:hover {
 
 li.indented {
     position: relative;
-    padding-left: 160px; 
+    padding-left: 140px; # distance between date and the news 
     margin-bottom: 10px;
     line-height: 1.6;
 }
@@ -58,5 +58,6 @@ li.indented strong {
     color: #000;
     font-weight: 600;
 }
+
 
 
