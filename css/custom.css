@@ -32,8 +32,9 @@ a:hover {
 
 li.indented {
     position: relative;
-    padding-left: 110px; 
-    margin-bottom: 20px;
+    padding-left: 135px; 
+    margin-bottom: 10px;
+    line-height: 1.6;
 }
 
 
@@ -57,3 +58,4 @@ li.indented strong {
     color: #000;
     font-weight: 600;
 }
+
