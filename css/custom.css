@@ -24,76 +24,36 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ================= Profile Card (Revised) ================= */
-.profile-wrapper {
-    background: #fff;
-    border: 1px solid rgba(0,0,0,0.06);
-    border-radius: 16px;            
-    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
-    
-    max-width: 680px;                
-    margin: -80px auto 50px auto;    
-    padding: 40px 50px !important;   
-    
-    display: flex;                   
-    align-items: center;             
-    justify-content: center;      
-    gap: 40px;                      
-    
-    position: relative;           
-    z-index: 10;
+/* ================= News Timeline ================= */
+#news ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-#profile-avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #fff;         
-    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-    flex-shrink: 0;              
+li.indented {
+    position: relative;
+    padding-left: 110px; 
+    margin-bottom: 20px;
 }
 
 
-#my-contact {
-    text-align: left;                
-    min-width: 250px;                
-}
-
-#my-name {
-    font-family: 'Merriweather', serif;
-    font-size: 2.2rem;
-    font-weight: 800;                
-    color: #222;
-    margin-bottom: 6px;
-    line-height: 1.2;
-}
-
-#my-title {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.1rem;
-    color: #555;
-    font-weight: 500;
-    margin-bottom: 18px;         
+li.indented::before {
+    content: attr(data-date);      
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 90px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: #666;
+    background-color: #f0f2f5;     
+    padding: 2px 0;
+    border-radius: 4px;         
+    text-align: center;
 }
 
 
-.social-media {
-    display: flex;
-    align-items: center;
-    gap: 12px;                   
-    flex-wrap: wrap;           
+li.indented strong {
+    color: #000;
+    font-weight: 600;
 }
-
-.icon-button {
-    color: #444 !important;
-    font-size: 1.3rem;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    transition: all 0.2s ease;
-    margin-right: 0 !important;
-
