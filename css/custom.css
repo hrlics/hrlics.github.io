@@ -1,9 +1,24 @@
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    color: #111;     
-    line-height: 1.7;   
+    color: #111;
+    line-height: 1.7;
     background-color: #fcfcfc;
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+[id] {
+    scroll-margin-top: 16px;
+}
+
+::selection {
+    background: #d9e6f7;
 }
 
 h1, h2, h3, h4, h5, h6, .md-heading {
@@ -22,6 +37,66 @@ a {
 a:hover {
     color: #004499;
     text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* ================= Layout rhythm ================= */
+/* Narrower measure: lines stop running too long */
+.wrapper {
+    max-width: 800px;
+}
+
+/* Section headings: hairline rule + accent icon, more air above */
+.md-heading {
+    font-size: 23px;
+    margin-top: 3.25rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.md-heading .fa,
+.md-heading .ai {
+    color: #9b3022;
+    font-size: 0.8em;
+    margin-right: 4px;
+}
+
+/* ================= Profile namecard ================= */
+.profile-wrapper {
+    border-radius: 18px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.16);
+}
+
+.wrapper-light {
+    background-color: rgba(255, 255, 255, 0.82);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+#my-name {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+}
+
+#my-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 8px;
+}
+
+.circle-img {
+    border-width: 3px;
+}
+
+/* Social buttons: monochrome at rest, brand color stays on hover fill */
+.icon-button .icon-github,
+.icon-button .icon-linkedin,
+.icon-button .icon-twitter {
+    color: #333;
 }
 
 /* ================= News Timeline ================= */
@@ -32,59 +107,74 @@ a:hover {
 
 li.indented {
     position: relative;
-    padding-left: 105px;
-    margin-bottom: 10px;
+    padding-left: 102px;
+    margin-bottom: 12px;
     line-height: 1.6;
 }
 
-
 li.indented::before {
-    content: attr(data-date);      
+    content: attr(data-date);
     position: absolute;
     left: 0;
     top: 2px;
-    width: 90px;
+    width: 84px;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.85rem;
-    color: #666;
-    background-color: #f0f2f5;     
-    padding: 2px 0;
-    border-radius: 4px;         
+    font-variant-numeric: tabular-nums;
+    font-size: 0.8rem;
+    color: #55606e;
+    background-color: #eef1f4;
+    padding: 3px 0;
+    border-radius: 5px;
     text-align: center;
 }
-
 
 li.indented strong {
     color: #000;
     font-weight: 600;
 }
 
-
 /* ================= Publications ================= */
 .publications p {
-    margin-bottom: 12px;
-    padding-bottom: 12px;
+    margin-bottom: 22px;
+    padding-bottom: 0;
 }
 
-
-.publications p strong a {      
-    font-size: 1.1rem;      
+.publications p strong a {
+    font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 4px;
+    line-height: 1.5;
 }
 
 .publications p strong a:hover {
     color: #0066cc;
 }
 
+.pub-authors {
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.pub-venue {
+    color: #6b6b6b;
+    font-size: 0.9rem;
+}
+
+.pub-venue strong {
+    color: #555;
+    font-weight: 600;
+}
 
 .publications u {
     text-decoration: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 1.5px solid #000;
     font-weight: 700;
     color: #000;
 }
 
+.year-section h2 {
+    font-size: 21px;
+    margin: 2.25rem 0 1.25rem;
+}
 
 /* ================= Experiences ================= */
 .experience-list {
@@ -93,7 +183,7 @@ li.indented strong {
 }
 
 .experience-list li {
-    margin-bottom: 14px;
+    margin-bottom: 18px;
     line-height: 1.6;
 }
 
@@ -102,6 +192,57 @@ li.indented strong {
     font-weight: 600;
 }
 
+.exp-desc {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* ================= Services / Footer ================= */
+#academicservices ul li {
+    margin-bottom: 4px;
+}
+
+.site-footer {
+    font-size: 15px;
+    color: #666;
+}
+
+.footer-col-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+}
+
+.footer-col {
+    float: none;
+    width: auto;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.contact-list {
+    margin: 0;
+    list-style: none;
+}
+
+.contact-list li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.site-footer .icon-button {
+    font-size: 1.4rem;
+    height: 2.6rem;
+    width: 2.6rem;
+    line-height: 2.5rem;
+    margin: 0 3px;
+}
+
+.site-footer .text {
+    margin: 0;
+}
 
 /* ============ Back-to-top (no jQuery) ============ */
 .back-to-top {
@@ -110,17 +251,10 @@ li.indented strong {
     visibility: hidden;
     transition: opacity 0.4s ease, visibility 0.4s ease;
     cursor: pointer;
+    border-radius: 6px 0 0 6px;
 }
 
 .back-to-top.visible {
     opacity: 1;
     visibility: visible;
 }
-
-
-
-
-
-
-
-
