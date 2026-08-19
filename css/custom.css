@@ -46,6 +46,23 @@ a:hover {
     max-width: 800px;
 }
 
+/* Align every section flush to the wrapper edge
+   (main.css gives .bio a 15px inset and .bio-body a 5px margin,
+   which .publications lacks — left edges never lined up) */
+.bio {
+    max-width: 100%;
+}
+
+.bio-body {
+    margin: 5px 0;
+}
+
+.publications {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /* Section headings: hairline rule + accent icon, more air above */
 .md-heading {
     font-size: 23px;
