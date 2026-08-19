@@ -1,3 +1,7 @@
+:root {
+    --accent: #9b3022;
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: #111;
@@ -74,9 +78,18 @@ a:hover {
 
 .md-heading .fa,
 .md-heading .ai {
-    color: #9b3022;
+    color: #111;
     font-size: 0.8em;
     margin-right: 4px;
+}
+
+.site-header {
+    border-top-color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+.site-footer {
+    border-top-color: var(--accent);
 }
 
 /* ================= Profile namecard ================= */
