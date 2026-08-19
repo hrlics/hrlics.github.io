@@ -219,9 +219,9 @@ li.indented strong {
 .footer-col-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 12px 24px;
+    gap: 12px 28px;
 }
 
 .footer-col {
