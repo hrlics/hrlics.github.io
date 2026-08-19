@@ -70,8 +70,8 @@ a:hover {
 /* Section headings: hairline rule + accent icon, more air above */
 .md-heading {
     font-size: 23px;
-    margin-top: 3.25rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
     padding-bottom: 10px;
     border-bottom: 1px solid #e8e8e8;
 }
