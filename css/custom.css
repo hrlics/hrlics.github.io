@@ -229,6 +229,8 @@ li.indented strong {
     width: auto;
     margin-bottom: 0;
     padding-left: 0;
+    display: flex;
+    align-items: center;
 }
 
 .contact-list {
@@ -247,6 +249,7 @@ li.indented strong {
     width: 2.6rem;
     line-height: 2.5rem;
     margin: 0 3px;
+    top: 0;
 }
 
 .site-footer .text {
