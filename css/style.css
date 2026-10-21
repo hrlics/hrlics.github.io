@@ -1,8 +1,10 @@
 /* Homepage styles. The particle background is drawn by js/bg.js.
-   Desktop sizes below are the phone sizes at 0.8x; phones (<= 600px) restore the full sizes at the end. */
+   Most desktop sizes are the phone sizes at 0.8x; phones (<= 600px) restore the full sizes at the end.
+   Body text follows blankcheng.github.io: Inter 400, 15.5px, #333, default font smoothing. */
 :root {
     --bg: #f7f7f4;
     --ink: #15171c;
+    --text: #333;
     --soft: #59606b;
     --faint: #8a909a;
     --rule: #e2e2dd;
@@ -22,11 +24,10 @@ html { scroll-behavior: smooth; }
 body {
     margin: 0;
     background-color: var(--bg);
-    color: var(--ink);
+    color: var(--text);
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
+    font-size: 15.5px;
+    line-height: 1.65;
     overflow-x: hidden;
 }
 
@@ -98,6 +99,7 @@ a:hover {
 }
 .intro-text { min-width: 0; }
 .hero-name {
+    color: var(--ink);
     font-weight: 600;
     font-size: 38px;
     line-height: 1.08;
@@ -193,7 +195,7 @@ li.indented strong { font-weight: 600; }
 .pub-list p > strong > a {
     color: var(--ink);
     font-weight: 600;
-    font-size: 14.5px;
+    font-size: 17px;
     text-decoration: none;
 }
 .pub-list p > strong > a:hover { color: var(--link); }
@@ -201,11 +203,11 @@ li.indented strong { font-weight: 600; }
     text-decoration: none;
     border-bottom: 1.5px solid currentColor;
 }
-.pub-authors { color: var(--soft); font-size: 13px; }
-.pub-venue { color: var(--faint); font-size: 12.5px; }
+.pub-authors { color: var(--soft); font-size: 14px; }
+.pub-venue { color: var(--faint); font-size: 13.5px; }
 .pub-venue strong {
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
     color: var(--accent);
 }
