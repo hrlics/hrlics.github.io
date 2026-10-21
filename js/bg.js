@@ -1,5 +1,6 @@
 /* Background: slowly drifting nodes, linked when close; the pointer pushes them aside.
-   Draws one static frame when the visitor prefers reduced motion, and pauses in hidden tabs. */
+   Draws one static frame when the visitor prefers reduced motion, and pauses in hidden tabs.
+   Like css/style.css, wide screens use the phone values at 0.8x. */
 (function () {
     var COLOR = [155, 48, 34];  // #9b3022
     var DENSITY = 0.5;          // nodes per 15000 px² of viewport
@@ -16,7 +17,7 @@
     document.body.insertBefore(canvas, document.body.firstChild);
     var ctx = canvas.getContext('2d');
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-    var W = 0, H = 0, nodes = [], mouse = null, raf = 0, last = 0;
+    var W = 0, H = 0, k = 1, nodes = [], mouse = null, raf = 0, last = 0;
 
     function rgba(a) {
         return 'rgba(' + COLOR.join(',') + ',' + a.toFixed(3) + ')';
@@ -35,13 +36,14 @@
         var dpr = Math.min(window.devicePixelRatio || 1, 2);
         W = window.innerWidth;
         H = window.innerHeight;
+        k = W > 600 ? 0.8 : 1;
         canvas.width = W * dpr;
         canvas.height = H * dpr;
         canvas.style.width = W + 'px';
         canvas.style.height = H + 'px';
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         nodes.forEach(function (n) { n.x = Math.min(n.x, W); n.y = Math.min(n.y, H); });
-        var target = Math.round(Math.max(24, Math.min(240, W * H / 15000 * DENSITY)));
+        var target = Math.round(Math.max(24, Math.min(240, W * H / (15000 * k * k) * DENSITY)));
         while (nodes.length < target) nodes.push(spawn());
         nodes.length = target;
     }
@@ -49,16 +51,16 @@
     function step(dt) {
         for (var i = 0; i < nodes.length; i++) {
             var n = nodes[i];
-            n.x += n.vx * SPEED * dt;
-            n.y += n.vy * SPEED * dt;
+            n.x += n.vx * SPEED * k * dt;
+            n.y += n.vy * SPEED * k * dt;
             if (n.x < 0) { n.x = 0; n.vx = Math.abs(n.vx); }
             if (n.x > W) { n.x = W; n.vx = -Math.abs(n.vx); }
             if (n.y < 0) { n.y = 0; n.vy = Math.abs(n.vy); }
             if (n.y > H) { n.y = H; n.vy = -Math.abs(n.vy); }
             if (mouse) {
                 var dx = n.x - mouse.x, dy = n.y - mouse.y, d = Math.sqrt(dx * dx + dy * dy);
-                if (d < REPEL && d > 0.01) {
-                    var f = (1 - d / REPEL) * 3 * dt;
+                if (d < REPEL * k && d > 0.01) {
+                    var f = (1 - d / (REPEL * k)) * 3 * k * dt;
                     n.x += dx / d * f;
                     n.y += dy / d * f;
                 }
@@ -68,15 +70,15 @@
 
     function draw() {
         ctx.clearRect(0, 0, W, H);
-        ctx.lineWidth = 1;
-        var i, j, a, b, dx, dy, d2, L2 = LINK * LINK;
+        ctx.lineWidth = k;
+        var i, j, a, b, dx, dy, d2, link = LINK * k, L2 = link * link;
         for (i = 0; i < nodes.length; i++) {
             a = nodes[i];
             for (j = i + 1; j < nodes.length; j++) {
                 b = nodes[j];
                 dx = a.x - b.x; dy = a.y - b.y; d2 = dx * dx + dy * dy;
                 if (d2 > L2) continue;
-                ctx.strokeStyle = rgba(LINE_ALPHA * (1 - Math.sqrt(d2) / LINK));
+                ctx.strokeStyle = rgba(LINE_ALPHA * (1 - Math.sqrt(d2) / link));
                 ctx.beginPath();
                 ctx.moveTo(a.x, a.y);
                 ctx.lineTo(b.x, b.y);
@@ -87,7 +89,7 @@
         for (i = 0; i < nodes.length; i++) {
             a = nodes[i];
             ctx.beginPath();
-            ctx.arc(a.x, a.y, SIZE * a.r, 0, Math.PI * 2);
+            ctx.arc(a.x, a.y, SIZE * k * a.r, 0, Math.PI * 2);
             ctx.fill();
         }
     }
